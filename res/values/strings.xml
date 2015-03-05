@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RandyLogin</string>
+    <string name="action_settings">Settings</string>
+    <string name="corrent_toast">Corrent!</string>
+    <string name="incorrent_toast">Incorrent!</string>
+    
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+  >
+	<TableRow >
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:text="Account:"/>
+	    
+	    <EditText 
+	        android:id="@+id/accountRegister"
+	        android:layout_height="wrap_content"
+	        android:hint="Input your account"/>
+	</TableRow>
+	
+	<TableRow >
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:text="Password:"/>
+	    
+	    <EditText 
+	        android:id="@+id/passwordRegister"
+	        android:layout_height="wrap_content"
+	        android:inputType="textPassword"
+	        android:hint="Input your password"/>
+	</TableRow>
+	
+	<TableRow >
+	    <TextView
+	        android:layout_height="wrap_content"
+	        android:text="Confirm:"/>
+	    
+	    <EditText 
+	        android:id="@+id/passwordConfirm"
+	        android:layout_height="wrap_content"
+	        android:inputType="textPassword"
+	        android:hint="Confirm your password"/>
+	</TableRow>
+	<TableRow>
+	    <Button 
+	        android:id="@+id/Register"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="注册"/>
+	</TableRow>
+	
+	
+</TableLayout>
