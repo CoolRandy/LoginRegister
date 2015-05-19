@@ -1,7 +1,5 @@
 package com.coolrandy.randylogin;
 
-//import cn.csdn.activity.LoginActivity;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.FragmentManager;
@@ -26,8 +24,6 @@ import com.coolrandy.db.AccountbaseHelper;
 
 @SuppressLint("NewApi")
 public class MainActivity extends Activity implements OnClickListener{
-	
-	
 	
 	
 	//
@@ -60,22 +56,8 @@ public class MainActivity extends Activity implements OnClickListener{
 		initViews();
 		fm = getFragmentManager();
 		 // 第一次启动时选中第0个tab  
-        setTabSelection(0);  
-		
-		
-/*		mRegisterButton = (Button)findViewById(R.id.Register);
-		mRegisterButton.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				//
-				//Toast.makeText(MainActivity.this, R.string.incorrent_toast, Toast.LENGTH_SHORT).show();
-				Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
-				startActivity(intent);
-				
-			}
-		});
-*/
+        setTabSelection(0);      
+       
 	}
 
 
